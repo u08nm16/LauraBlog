@@ -50,3 +50,15 @@ td img:hover {
 #sidenav a:hover {
   color: white;
 }
+@media screen and (max-width: 780px) {
+  header {
+    align: center;
+  }
+  .navbar {
+    text-align: center;
+    overflow: auto;
+  }
+  #main {
+    align: center;
+  }
+}
