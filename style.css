@@ -58,6 +58,20 @@ td img:hover {
     text-align: center;
     overflow: auto;
   }
+  .navbar li {
+    width: 10%;
+    padding: 1%;
+    display: table;
+  }
+  .navbar li a {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  img {
+    max-width: 600px;
+    max-height: 600px;
+    align: center;
+  }
   #main {
     align: center;
   }
